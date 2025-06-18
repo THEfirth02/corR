@@ -1,0 +1,21 @@
+Package: corR
+Type: Package
+Title: CORR Data Science and Manipulation through R
+Version: 0.0.1
+Authors@R: c(
+    person(
+      "Austin", "Firth",
+      email = "firtha2@ccf.org",
+      role = c("aut", "cre")
+    )
+  )
+Description: Read data and perform common cleaning tasks conveniently. Other
+    utility functions for data analysis as well.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    labelled,
+    tidyr
